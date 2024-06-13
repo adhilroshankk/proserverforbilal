@@ -1,0 +1,80 @@
+node js
+-------------
+
+asynchronous - single threaded (single call stack) + event loop
+
+no space in call queue leads to call back hell
+open source (tech and libraries are free)
+
+NOde global objects
+-------------------
+it can access anywhere in node js files
+console.log() setTimeout()
+
+node module system
+------------------
+each file in js is considered as module
+to reuse modules in js we have export & import
+
+import - require() - can be used anywhere whereas import only on the top
+export -exports / module.exports - 
+
+js files
+
+exports function 1()
+exports function 2()
+
+js file
+
+function 1()
+ function 2()
+
+ modules.exports={function 1 , function 2}
+
+ inbuilt modules in js
+ ---------------------
+
+ fs -file system module - to handle related operation(read/write/append)
+
+ crypto - contains tools for encryption ,hashing.....
+ process -  to process environment variables during running state
+
+ package system in node 
+ -----------------
+
+ package is collection of modules
+
+ package.json :- handle packages in node , itcontaions npm , it contain npm configuration
+
+ install : npm i package name
+
+ node_modules : store copy of installed packages - npm i
+
+ package-lock.json : to hold versions of installed packages
+
+ EXPRESS----
+ ==============
+
+ framework of node , resolve client server requests
+
+ .env -- used to environmental variables
+
+ environmental - variables that contain application configuration needed during runtime
+ 
+ itconverts static working of app into dynamic (local host running t0oserberew)
+
+ Create
+ ------
+
+ db.collectionName.insertOne({datas})
+  db.collectionName.insertMany([{object1},{object2},....])
+
+
+  update
+  ------
+  db.
+
+
+mongoose
+--------
+library used to connect mongodb with node server
